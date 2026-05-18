@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Users</title>
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/sidebar.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/users.css">
+
+</head>
+
+<body>
+
+<div class="layout">
+
+  <aside class="sidebar">
+
+    <h2>boxguard</h2>
+
+    <nav>
+
+      <a href="dashboard.html">Dashboard</a>
+
+      <a href="users.html">Users</a>
+
+    </nav>
+
+  </aside>
+
+  <main class="content">
+
+    <h1>User Management</h1>
+
+    <form id="userForm">
+
+      <input type="text" id="newUser" placeholder="Username">
+
+      <input type="password" id="newPass" placeholder="Password">
+
+      <button>Add User</button>
+
+    </form>
+
+    <ul id="userList"></ul>
+
+  </main>
+
+</div>
+
+<script src="js/users.js"></script>
+
+</body>
+</html>
